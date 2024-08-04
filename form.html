@@ -6,32 +6,70 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <label for="name">Name   :</label>
-        <input type="text" name="name", placeholder="Enter Your Name", required><br><br>
-        <label for="email">Email   :</label>
-        <input type="email"  name="email", placeholder="Enter Your Email", required> <br><br>
-        <label for="address">Address :</label>
-        <select name="address" id="address" required>
-            <option value="">Select Your Address</option>
-            <option value="D">Dhaka</option>
-            <option value="R">Rajshahi</option>
-            <option value="k">Khulna</option>
-        </select><br><br>
-        <label for="">Gender: <br>
-            <input type="radio" id="g" name="gender" value="HTML">
-            <label for="male">Male</label><br>
-            <input type="radio" id="g" name="gender" value="HTML">
-            <label for="female">Female</label>
-        </label><br><br>
+    <details>
+        <summary>Click here and filap form</summary>
+        <form>
+            <fieldset> <!-- amra from a charpase border debar jnno mara field set use kori -->
+                <legend>Form</legend>
+                <label for="name">Name   :</label>
+                <input type="text" name="name", placeholder="Enter Your Name", required><br><br>
+                <label for="email">Email   :</label>
+                <input type="email"  name="email", placeholder="Enter Your Email", required> <br><br>
+                <label for="address">Address :
+                    
+                </label>
+                <select name="address" id="address" required>
+                    <option value="">Select Your Address</option>
+                    <option value="D">Dhaka</option>
+                    <option value="R">Rajshahi</option>
+                    <option value="k">Khulna</option>
+                </select><br><br>
+                Gender: <br>
+                <input type="radio" id="g" name="gender" value="HTML">Mala
+                <input type="radio" id="g" name="gender" value="HTML">Female
 
-        <button type="submit">Submit</button>
-        <a href="edit.html">
-            <button type="edit">Edit</button>
-        </a>
-        <button type="reset"> Reset</button>
-
-
-    </form>
+                </label><br><br>
+                <label> Write your Comment:<br>
+                    <textarea name="comment" id=""></textarea> <br>
+                </label>
+                <button type="submit">Submit</button>
+                <a href="edit.html">
+                    <button type="edit">Edit</button>
+                </a>
+                <button type="reset"> Reset</button><br> <br>
+                <div>
+                    Select your Coutry:
+                    <select name="" id="">
+                        <option value="">Select your Coutry</option>
+                        <optgroup label="Asia">
+                            <option value="India">India</option>
+                            <option value="china">China</option>
+                            <option value="pakistab">Pakstan</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="germany">Germany</option>
+                            <option value="finland">Finland</option>
+                        </optgroup>
+                    </select>
+                </div><br> <br>
+                <div>
+                    <label for="name">Select Your Favourite Language :</label><br>
+                    <input type="checkbox" name="c[]">C <br>
+                    <input type="checkbox" name="c++[]">C++ <br>
+                    <input type="checkbox" name="python">Python <br>
+                    <input type="checkbox" name="java">Java <br>
+                    <input type="checkbox" name="ruby">Ruby <br>
+                    <input type="checkbox" name="java cript">Java Script <br>
+                    <input type="checkbox" name="r">R <br>
+                    <input type="checkbox" name="php">Php<br>
+                    <input type="checkbox" name="asp.net">Asp.Net <br>
+                    <button type="submit">Save</button><br><br>
+                    <label for="image"> Image:</label><br>
+                    <input type="file" name="image"/>
+                </div><br><br>
+            
+            </fieldset>
+        </form>
+    </details>
 </body>
 </html>
