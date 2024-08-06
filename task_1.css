@@ -1,0 +1,57 @@
+
+/* task1 */
+.main1{
+    width: 900px;
+    height: 450px;
+}
+.row11{
+    width: 900px;
+    height: 150px;
+    background-color: rgb(169, 82, 82);
+}
+.col3{
+    width: 300px;
+    height: 150px;
+    background-color: aliceblue;
+    float: left;
+}
+.col4{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(158, 202, 25);
+    float: right;
+}
+.col5{
+    width: 300px;
+    height: 150px;
+    background-color:paleturquoise;
+    float: right;
+}
+.row12{
+    width: 900px;
+    height: 150px;
+}
+.col6{
+    width: 900px;
+    height: 150px;
+    background-color: chocolate;
+    text-align: center;
+}
+.row13{
+    width: 900px;
+    height: 150px;
+}
+.col7{
+    width: 450px;
+    height: 150px;
+    background-color: cornflowerblue;
+    float: right;
+    text-align: center;
+}
+.col8{
+    width: 450px;
+    height: 150px;
+    background-color: yellow;
+    text-align: center;
+}
+
