@@ -1,0 +1,47 @@
+.container{
+    width: 1400px;
+    height: 640px;
+    background-color: #00FF00;
+}
+.row1{
+    width: 1400px;
+    height: 50px;
+    /* font-size: 2em; 
+    font-weight: bold;   1 em =16px */
+    background-color: bisque;
+    text-align: center;   
+}
+.row2{
+    width: 1400px;
+    height: 40px;
+    
+}
+.col1{
+    width: 280px;
+    height: 40px;
+    background-color: rgb(86, 137, 181);
+    float: left;
+    text-align: center;
+}
+
+.row3{
+    width: 1400px;
+    height: 150px;
+}
+.col2{
+    width: 560px;
+    height: 150px;
+}
+.sn1{
+    width: 560px;
+    height: 30px;
+    float: left;
+    float: right;
+    text-align: center;
+    background-color: blueviolet;
+}
+.col3{
+    width: 840px;
+    height: 150px;
+
+}
