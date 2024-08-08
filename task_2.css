@@ -2,6 +2,7 @@
     width: 1400px;
     height: 640px;
     background-color: #00FF00;
+    border: 3px solid maroon;
 }
 .row1{
     width: 1400px;
@@ -10,10 +11,12 @@
     font-weight: bold;   1 em =16px */
     background-color: bisque;
     text-align: center;   
+    border: 1px solid maroon;
 }
 .row2{
     width: 1400px;
     height: 40px;
+    border: 1px solid maroon;
     
 }
 .col1{
@@ -22,6 +25,7 @@
     background-color: rgb(86, 137, 181);
     float: left;
     text-align: center;
+    
 }
 
 .row3{
@@ -31,6 +35,7 @@
 .col2{
     width: 560px;
     height: 150px;
+    float: left;
 }
 .sn1{
     width: 560px;
@@ -39,9 +44,16 @@
     float: right;
     text-align: center;
     background-color: blueviolet;
+    
 }
 .col3{
     width: 840px;
     height: 150px;
-
+    float: right;
+}
+.row4{
+    width: 1400px;
+    height: 100px;
+    background-color: turquoise;
+    text-align: center;
 }
