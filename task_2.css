@@ -51,9 +51,30 @@
     height: 150px;
     float: right;
 }
+
 .row4{
     width: 1400px;
     height: 100px;
     background-color: turquoise;
     text-align: center;
+}
+
+.row5{
+    width: 1400px;
+    height: 225px;
+    background-color: tomato;
+}
+.col4{
+    width: 350px;
+    height: 225px;
+    float: left;
+}
+
+.row6{
+    width: 1400px;
+    height: 100px;
+    background-color: burlywood;
+    float: left;
+    text-align: center;
+    
 }
