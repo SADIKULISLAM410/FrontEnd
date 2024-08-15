@@ -48,5 +48,34 @@
     background-position: top right;
     background-size: cover;
 }
+.image1{
+    width: 800px;
+    height: 200px;
+    border: 5px solid black;
+    background-image: url('RR.jpg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-position: top right;
+    background-size: cover;
+}
+/* padding */
+.flag{
+    width: 960px; /* age 1000px nicilam akn 960px  nilam karon amra left and right side a padding a 20px kore 40px pixel kombe width teke 40px komailam
+     */
+    height: 360px; /* age 400 nicilam akn 960px  nilam karon amra top and  side a padding a 20px kore 40px pixel kombe height teke 40px komailam
+*/
+    padding: 20px;
+    font-size: 50px;
+    background-color: forestgreen; 
 
+}
 
+.flag2{
+    width: 960px;
+    height: 360px;
+    background: url("RR.jpg") fixed;
+    border: 2px solid pink;
+   
+    background-size: cover;
+    
+}
