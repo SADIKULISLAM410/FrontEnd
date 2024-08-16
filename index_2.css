@@ -14,14 +14,35 @@ body{
 }
 .project{
     width: 100%; /*  akn a jodi width: 100%; nei tahole amar puro puro ta wide nibe */
-    height: 500px;
+    padding-bottom: 50px;
     background: #e7cfb1; 
-/} 
+} 
 .project-mid{
     width: 1320px;
     margin: auto; 
-    text-align: inherit;
 }
+.project-mid h2{
+    text-align: center;
+    padding: 30px 0px;
+}
+.project-item-outer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; /* akn flax direction kaj kore row or coloum hisabe (row) dile box gula row akare asbe abr (coloum) dile box gula coloum aakare asbe */
+}
+.project-item{
+    width: 18%;  /* amader main div ar width 100%. 5 ta box ke vag kore dile 20% ase. akn protita box teke  margin top and button teke 1%  kore nile baki take 18%. ar ai 18% dilam width a */
+    margin: 1%;
+    text-align: center;
+    background: white;
+    padding: 20px 0px;
+
+}
+.project-item img{
+    width: 50px;
+}
+
 /* flax-box */
 .flex-container {
     display: flex;
@@ -29,13 +50,39 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-  }
+}
   
-  .flex-item {
+.flex-item {
     background-color: lightblue;
     text-align: center;
     margin: 10px;
     padding: 20px;
-    flex: 1 1 200px; /* grow, shrink, basis */
-  }
-  
+    flex: 1 1 200px; 
+}
+.flex{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Ami jodi chai je amar calculation ba  parents div ar width ar map onozaye children ar box guala asuk sei jnno amra wrap use korbo */
+}
+.item{
+    background-color: steelblue;
+    width: 500px; /* amra akn a width 500px dilam . amra item nici 5 ta akta item ar jnno 500px tahole 5 ta item div ar jnno 2500px bt amder parent div ar width nici 1300px tate kono problem nai child div a jodi hazar hazar px width diye taki tao kono prb nai karon parent div ar map ar baire tara jabe nah. children div tader modde adjast hoye jabe  */
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    /*  */
+}
+.display-flex{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.child{
+    width: 18%;
+    margin: 1%;
+    box-shadow: 0px 2px 15px 2px black;
+    text-align: center;
+    background: white;
+    padding: 5% 0px;
+}
