@@ -1,0 +1,41 @@
+/* 
+--universal selecto css 
+--flax-box
+*/
+/* akn a margin padding dile sokol tag ar margin ar padding 0 hoye jabe */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.project{
+    width: 100%; /*  akn a jodi width: 100%; nei tahole amar puro puro ta wide nibe */
+    height: 500px;
+    background: #e7cfb1; 
+/} 
+.project-mid{
+    width: 1320px;
+    margin: auto; 
+    text-align: inherit;
+}
+/* flax-box */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 200px; /* grow, shrink, basis */
+  }
+  

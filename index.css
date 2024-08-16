@@ -77,5 +77,25 @@
     border: 2px solid pink;
    
     background-size: cover;
-    
+}
+/* text-shadow */
+.shadow{
+    background-color: white;
+}
+.h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 2px 0px 1px rgb(120, 58, 58);
+}
+/* box-shadow */
+/* all divition a joto  px dibo char dike toto px  blur hoye jabe.  jodi amra char pase shadow  chai tahole amra 4 no perameter use korbo */
+.box{
+    background-color: rgb(148, 110, 110);
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 4px 2px black inset;
 }
